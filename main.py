@@ -25,7 +25,7 @@ def text_to_matrix(text: str):
 # This function allows to run the grid until the end of the process
 def run_the_grid(grid: Grid):
     while not grid.end_game:
-        grid.next_time_step(grid.matrix)
+        grid.next_time_step()
 
 
 def main():
